@@ -31,7 +31,7 @@
 		/* macro definition of 8051 */
 		#include <reg51.h>
 		
-	/*||||| 常數與巨集 | Constants & Macros |||||*/
+	/*||||| 常數與巨集與 SFR bit alias |||||*/
 		/* digital logic definitions */
 			#define LOGIC_HIGH 1
 			#define LOGIC_LOW 0
@@ -40,29 +40,26 @@
 			#define TRUE 1
 			#define FALSE 0
 
-		/* Port alias */
+		/* 8 位元 LED */
 			#define LED P1
 			
-		/* SFR bit alias */
-			/* 按鈕 */
-				sbit switch4 = P3^3;
-				sbit switch5 = P3^4;
-				sbit switch6 = P3^5;
-				
-			/* 類比／數位轉換器 */
-				sbit adc_read_bar_cs_bar = P2^6;
-				
-			/* 指撥開關 */
-				sbit dip_ground = P2^5;
+		/* 按鈕 */
+			sbit switch4 = P3^3;
+			sbit switch5 = P3^4;
+			sbit switch6 = P3^5;
 			
-			/* 液晶螢幕 */
-				sbit lcd_enable = P2^2;
-					/* 啟用 LCD 訊號 */
-				sbit lcd_register_select = P2^0;
-				#define LCD_REGISTER_DATA LOGIC_HIGH
-				#define
-					/* LCD 暫存器選擇信號 */
-				sbit lcd_read_write_bar = P2^1;
+		/* 類比／數位轉換器(ADC) */
+			sbit adc_read_bar_cs_bar = P2^6;
+			
+		/* 指撥開關(DIP) */
+			sbit dip_ground = P2^5;
+		
+		/* 液晶螢幕(LCD) */
+			sbit lcd_enable = P2^2;
+				/* 啟用 LCD 訊號 */
+			sbit lcd_register_select = P2^0;
+				/* LCD 暫存器選擇信號 */
+			sbit lcd_read_write_bar = P2^1;
 					/* LCD 暫存器讀寫 */
 	/*||||| Definition of data type, enumeration, data structure and class |||||*/
 
