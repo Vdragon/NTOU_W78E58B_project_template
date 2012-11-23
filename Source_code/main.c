@@ -39,7 +39,7 @@ void main(void){
 
 void initialize(){
 	/* 停用 ADC 的輸出 */
-		dc_read_bar_cs_bar = LOGIC_HIGH;
+		adc_read_bar_cs_bar = LOGIC_HIGH;
 	/* 停用 DIP 的輸出 */
 		dip_ground = LOGIC_HIGH;
 	/* 停用 LCD */
