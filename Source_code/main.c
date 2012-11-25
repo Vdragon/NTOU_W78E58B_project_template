@@ -18,7 +18,7 @@ main.c
 
 /*||||| 函式雛型 | Function Prototypes |||||*/
 	/* 初始化硬體（關掉所有設備信號）的函式 */
-	void initialize();
+	void initializeSystem();
 
 /*||||| 全域變數 | Global Variables |||||*/
 
@@ -26,7 +26,7 @@ main.c
 /* 程式進入點 | Program entry point
    　因為嵌入式系統開機之後就會執行到電源關閉，故不需要回傳值*/
 void main(void){
-	initialize();
+	initializeSystem();
 	
 	/* main loop */
 	while(TRUE){
@@ -37,7 +37,7 @@ void main(void){
 	return;
 }
 
-void initialize(){
+void initializeSystem(){
 	/* 啟用／停用 ADC 的輸入 */
 		adc_read_bar_cs_bar = LOGIC_HIGH;
 	/* 啟用／停用 DIP 的輸入 */
