@@ -38,11 +38,11 @@ void main(void){
 }
 
 void initialize(){
-	/* 停用 ADC 的輸出 */
+	/* 啟用／停用 ADC 的輸入 */
 		adc_read_bar_cs_bar = LOGIC_HIGH;
-	/* 停用 DIP 的輸出 */
+	/* 啟用／停用 DIP 的輸入 */
 		dip_ground = LOGIC_HIGH;
-	/* 停用 LCD */
+	/* 啟用／停用 LCD */
 		lcd_enable = LOGIC_LOW;
 	/* disable LCD register write */
 		lcd_read_write_bar = LOGIC_HIGH;
