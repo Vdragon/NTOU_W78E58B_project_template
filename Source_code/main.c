@@ -1,5 +1,5 @@
 /* 
-main.c
+主程式
 	請見本檔案的header檔案以得到更多關於本檔案的說明
 */
 /*||||| 程式所include之函式庫的標頭檔 | Included Library Headers |||||*/
