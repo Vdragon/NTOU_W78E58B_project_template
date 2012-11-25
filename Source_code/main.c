@@ -6,11 +6,15 @@ main.c
 /* Standard io library definition? */
 #include <stdio.h>
 
-/* Definitions of 8051 register constants */
-#include <REG51.h>
+/* Definitions of 8051 register constants
+   　如果您要直接存取而非透過 Project_configurations/Ports_and_control_signals_* 來存取硬體的話需引入此檔案
+#include <REG51.h> */
 
 /* Common definitions */
 #include "Project_configurations/Common_definitions.h"
+
+/* Ports and control signals definitions */
+#include "Project_configurations/Ports_and_control_signals_NTOUCS_HN_Winbond_W78E58B.h"
 
 /*||||| 常數與巨集 | Constants & Macros |||||*/
 
