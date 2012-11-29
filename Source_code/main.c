@@ -43,9 +43,9 @@ void main(void){
 
 void initializeSystem(){
 	/* 啟用／停用 ADC 的輸入 */
-		adc_read_bar_cs_bar = LOGIC_HIGH;
+		adc_read_bar_chip_select_bar = LOGIC_HIGH;
 	/* 啟用／停用 DIP 的輸入 */
-		dip_ground = LOGIC_HIGH;
+		dip_sw_chip_select_bar = LOGIC_HIGH;
 	/* 啟用／停用 LCD */
 		lcd_enable = LOGIC_LOW;
 	/* disable LCD register write */
