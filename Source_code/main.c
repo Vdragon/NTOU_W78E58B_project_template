@@ -62,5 +62,8 @@ void initializeSystem(){
 		/* 清空數位字型內容 */
 			seven_seg_latch_font_enable = LOGIC_HIGH;
 			seven_seg_latch_font_enable = LOGIC_LOW;
+	/* 停用計時器(timer)／計數器(counter) */
+		tmr_ctr1_run = LOGIC_LOW;
+		tmr_ctr0_run = LOGIC_LOW;
 	return;
 }
