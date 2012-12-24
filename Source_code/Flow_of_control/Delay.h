@@ -36,15 +36,32 @@
 	/*||||| 函式雛型 | Function Prototypes |||||*/
 	/* 單純的倒數產生時間延遲的函式
 	   　time
-		 　　延遲時距
+		 　　延遲時距（單位：while 迴圈一次運行的時間）
 	*/
 	void delay(unsigned int time);
 	
-	/* 延遲（秒） （尚未實作）
-	   　time
-		 　　延遲時距
-	
-	void delaySecond(unsigned int time);*/
+	void delayDoing(
+		/* 延遲並於該時段中執行特定功能 */
+		unsigned int time, 
+		void (*doing)(unsigned int param1), 
+		unsigned int param1);
+		
+	void delaySecond(
+		/* 延遲（單位：秒） */
+		bit timer, 
+			/* 用來計時的 timer */
+		unsigned int time
+			/* 延遲時距 */);
+
+	void delaySecondDoing(
+		/* 延遲（單位：秒）並於該時段中執行特定功能 */
+		bit timer, 
+			/* 用來計時的 timer */
+		unsigned int time
+			/* 延遲時距 */, 
+		void (*doing)(unsigned int param1), 
+		unsigned int param1);
+			
 	/*||||| 全域變數 | Global Variables |||||*/
 	
 	#ifdef __cplusplus

@@ -161,10 +161,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>12</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>11</CurrentLine>
+      <TopLine>44</TopLine>
+      <CurrentLine>12</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source_code\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -173,7 +173,7 @@
 
   <Group>
     <GroupName>Project_configurations</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
@@ -192,7 +192,7 @@
     </File>
     <File>
       <GroupNumber>2</GroupNumber>
-      <FileNumber>3</FileNumber>
+      <FileNumber>0</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
@@ -201,14 +201,14 @@
       <TopLine>0</TopLine>
       <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Source_code\Project_configurations\Ports_and_control_signals_NTOUCS_HN_Winbond_W78E58B.h</PathWithFileName>
-      <FilenameWithoutPath>Ports_and_control_signals_NTOUCS_HN_Winbond_W78E58B.h</FilenameWithoutPath>
+      <PathWithFileName>.\Source_code\Project_configurations\Configuration_NTOUCS_HN_Winbond_W78E58B.h</PathWithFileName>
+      <FilenameWithoutPath>Configuration_NTOUCS_HN_Winbond_W78E58B.h</FilenameWithoutPath>
     </File>
   </Group>
 
   <Group>
     <GroupName>Flow_of_control</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
@@ -217,10 +217,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>17</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>9</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source_code\Flow_of_control\Delay.c</PathWithFileName>
       <FilenameWithoutPath>Delay.c</FilenameWithoutPath>
@@ -266,6 +266,41 @@
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source_code\Flow_of_control\Hang.h</PathWithFileName>
       <FilenameWithoutPath>Hang.h</FilenameWithoutPath>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>Timer_or_counter</GroupName>
+    <tvExp>0</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <File>
+      <GroupNumber>0</GroupNumber>
+      <FileNumber>0</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source_code\Timer_or_counter\Timer_or_counter.c</PathWithFileName>
+      <FilenameWithoutPath>Timer_or_counter.c</FilenameWithoutPath>
+    </File>
+    <File>
+      <GroupNumber>0</GroupNumber>
+      <FileNumber>0</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source_code\Timer_or_counter\Timer_or_counter.h</PathWithFileName>
+      <FilenameWithoutPath>Timer_or_counter.h</FilenameWithoutPath>
     </File>
   </Group>
 
