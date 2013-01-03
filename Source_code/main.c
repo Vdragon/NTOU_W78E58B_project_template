@@ -21,21 +21,50 @@
 /*||||| Definition of data type, enumeration, data structure and class |||||*/
 
 /*||||| 函式雛型 | Function Prototypes |||||*/
-
+	/* 中斷服務子程式 */
+		void cbExtInt0(void);
+		void cbExtInt1(void);
+		void cbTimer0(void);
+		void cbTimer1(void);
+		void cbSerialUART(void);
+		
 /*||||| 全域變數 | Global Variables |||||*/
 
 /*||||| 主要程式碼 | Main Code |||||*/
-/* 程式進入點 | Program entry point
-   　因為嵌入式系統開機之後就會執行到電源關閉，故不需要回傳值*/
-void main(void){
-	disableAllUnit();
-	
-	/* main loop */
-	while(TRUE){
+	/* 程式進入點 | Program entry point
+		 　因為嵌入式系統開機之後就會執行到電源關閉，故不需要回傳值*/
+	void main(void){
+		disableAllUnit();
 		
+		/* main loop */
+		while(TRUE){
+			
+			
+		}
 		
+		return;
 	}
-	
-	return;
-}
 
+	/* 外部中斷 callback 函式 */
+		void cbExtInt0(void) interrupt 0{
+			return;
+		}
+		
+		void cbExtInt1(void) interrupt 2{
+			return;
+		}
+		
+	/* 計時器／計數器中斷 callback 函式 */
+		void cbTimer0(void) interrupt 1{
+			return;
+		}
+		
+		void cbTimer1(void) interrupt 3{
+			return;
+		}
+		
+	/* 序列式 UART 介面中斷 callback 函式 */
+		void cbSerialUART(void) interrupt 4{
+			return;
+		}
+		
