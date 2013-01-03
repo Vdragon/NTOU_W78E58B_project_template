@@ -14,7 +14,7 @@
 	#include "Project_configurations/Common_definitions.h"
 
 /* Hardware_configurations */
-	#inlcude "Hardware_configurations/NTOUCS_Home_Network_51AVR.h"
+	#include "Hardware_configurations/NTOUCS_Home_Network_51AVR.h"
 	
 /*||||| 常數與巨集 | Constants & Macros |||||*/
 
